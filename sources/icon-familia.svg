@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="d" d="M100 12 L106 20 L100 28 L94 20 Z" fill="#B3261E"/>
+  </defs>
+
+  <!-- moldura -->
+  <circle cx="100" cy="100" r="96" fill="#FFF8EC" stroke="#1A1A1A" stroke-width="6"/>
+  <use href="#d"/>
+  <use href="#d" transform="rotate(30 100 100)"/>
+  <use href="#d" transform="rotate(60 100 100)"/>
+  <use href="#d" transform="rotate(90 100 100)"/>
+  <use href="#d" transform="rotate(120 100 100)"/>
+  <use href="#d" transform="rotate(150 100 100)"/>
+  <use href="#d" transform="rotate(180 100 100)"/>
+  <use href="#d" transform="rotate(210 100 100)"/>
+  <use href="#d" transform="rotate(240 100 100)"/>
+  <use href="#d" transform="rotate(270 100 100)"/>
+  <use href="#d" transform="rotate(300 100 100)"/>
+  <use href="#d" transform="rotate(330 100 100)"/>
+  <circle cx="100" cy="100" r="70" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- mãos dadas -->
+  <line x1="58" y1="120" x2="142" y2="120" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- figura esquerda -->
+  <circle cx="62" cy="86" r="9" fill="#1A1A1A"/>
+  <path d="M62 98 L82 142 L42 142 Z" fill="#1A1A1A"/>
+
+  <!-- figura central (maior) -->
+  <circle cx="100" cy="74" r="11" fill="#B3261E" stroke="#1A1A1A" stroke-width="3"/>
+  <path d="M100 90 L126 146 L74 146 Z" fill="#B3261E" stroke="#1A1A1A" stroke-width="3"/>
+
+  <!-- figura direita -->
+  <circle cx="138" cy="86" r="9" fill="#D9902F" stroke="#1A1A1A" stroke-width="3"/>
+  <path d="M138 98 L158 142 L118 142 Z" fill="#D9902F" stroke="#1A1A1A" stroke-width="3"/>
+
+  <!-- detalhe no corpo central -->
+  <path d="M100 108 L108 122 L100 136 L92 122 Z" fill="#FFF8EC"/>
+</svg>

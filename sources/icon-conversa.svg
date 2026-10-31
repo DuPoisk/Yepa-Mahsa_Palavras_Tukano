@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="d" d="M100 12 L106 20 L100 28 L94 20 Z" fill="#B3261E"/>
+  </defs>
+
+  <!-- moldura -->
+  <circle cx="100" cy="100" r="96" fill="#FFF8EC" stroke="#1A1A1A" stroke-width="6"/>
+  <use href="#d"/>
+  <use href="#d" transform="rotate(30 100 100)"/>
+  <use href="#d" transform="rotate(60 100 100)"/>
+  <use href="#d" transform="rotate(90 100 100)"/>
+  <use href="#d" transform="rotate(120 100 100)"/>
+  <use href="#d" transform="rotate(150 100 100)"/>
+  <use href="#d" transform="rotate(180 100 100)"/>
+  <use href="#d" transform="rotate(210 100 100)"/>
+  <use href="#d" transform="rotate(240 100 100)"/>
+  <use href="#d" transform="rotate(270 100 100)"/>
+  <use href="#d" transform="rotate(300 100 100)"/>
+  <use href="#d" transform="rotate(330 100 100)"/>
+  <circle cx="100" cy="100" r="70" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- balão 1 (vermelho, em cima à esquerda) -->
+  <path d="M62 104 L56 124 L82 106 Z" fill="#B3261E" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="48" y="62" width="68" height="44" rx="14" fill="#B3261E" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M62 78 L68 84 L62 90 L56 84 Z" fill="#FFF8EC"/>
+  <path d="M82 78 L88 84 L82 90 L76 84 Z" fill="#FFF8EC"/>
+  <path d="M102 78 L108 84 L102 90 L96 84 Z" fill="#FFF8EC"/>
+
+  <!-- balão 2 (ocre, embaixo à direita) -->
+  <path d="M136 136 L142 152 L118 138 Z" fill="#D9902F" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="84" y="94" width="68" height="44" rx="14" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M102 110 L108 116 L102 122 L96 116 Z" fill="#1A1A1A"/>
+  <path d="M122 110 L128 116 L122 122 L116 116 Z" fill="#1A1A1A"/>
+  <path d="M142 110 L148 116 L142 122 L136 116 Z" fill="#1A1A1A"/>
+</svg>

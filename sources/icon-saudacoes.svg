@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="d" d="M100 12 L106 20 L100 28 L94 20 Z" fill="#B3261E"/>
+  </defs>
+
+  <!-- moldura -->
+  <circle cx="100" cy="100" r="96" fill="#FFF8EC" stroke="#1A1A1A" stroke-width="6"/>
+  <use href="#d"/>
+  <use href="#d" transform="rotate(30 100 100)"/>
+  <use href="#d" transform="rotate(60 100 100)"/>
+  <use href="#d" transform="rotate(90 100 100)"/>
+  <use href="#d" transform="rotate(120 100 100)"/>
+  <use href="#d" transform="rotate(150 100 100)"/>
+  <use href="#d" transform="rotate(180 100 100)"/>
+  <use href="#d" transform="rotate(210 100 100)"/>
+  <use href="#d" transform="rotate(240 100 100)"/>
+  <use href="#d" transform="rotate(270 100 100)"/>
+  <use href="#d" transform="rotate(300 100 100)"/>
+  <use href="#d" transform="rotate(330 100 100)"/>
+  <circle cx="100" cy="100" r="70" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- polegar -->
+  <rect x="58" y="108" width="12" height="38" rx="6" transform="rotate(-35 64 127)" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+
+  <!-- dedos -->
+  <rect x="76" y="68" width="11" height="52" rx="5.5" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+  <rect x="89" y="56" width="11" height="64" rx="5.5" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+  <rect x="102" y="60" width="11" height="60" rx="5.5" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+  <rect x="115" y="72" width="11" height="48" rx="5.5" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+
+  <!-- palma -->
+  <rect x="72" y="104" width="58" height="48" rx="16" fill="#D9902F" stroke="#1A1A1A" stroke-width="4"/>
+  <path d="M101 114 L111 128 L101 142 L91 128 Z" fill="#B3261E"/>
+
+  <!-- brilhos de saudação -->
+  <path d="M152 70 L158 78 L152 86 L146 78 Z" fill="#B3261E"/>
+  <path d="M48 70 L54 78 L48 86 L42 78 Z" fill="#B3261E"/>
+</svg>

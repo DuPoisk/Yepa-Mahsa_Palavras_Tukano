@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="d" d="M100 12 L106 20 L100 28 L94 20 Z" fill="#B3261E"/>
+  </defs>
+
+  <!-- moldura -->
+  <circle cx="100" cy="100" r="96" fill="#FFF8EC" stroke="#1A1A1A" stroke-width="6"/>
+  <use href="#d"/>
+  <use href="#d" transform="rotate(30 100 100)"/>
+  <use href="#d" transform="rotate(60 100 100)"/>
+  <use href="#d" transform="rotate(90 100 100)"/>
+  <use href="#d" transform="rotate(120 100 100)"/>
+  <use href="#d" transform="rotate(150 100 100)"/>
+  <use href="#d" transform="rotate(180 100 100)"/>
+  <use href="#d" transform="rotate(210 100 100)"/>
+  <use href="#d" transform="rotate(240 100 100)"/>
+  <use href="#d" transform="rotate(270 100 100)"/>
+  <use href="#d" transform="rotate(300 100 100)"/>
+  <use href="#d" transform="rotate(330 100 100)"/>
+  <circle cx="100" cy="100" r="70" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- parede -->
+  <rect x="64" y="106" width="72" height="44" fill="#B3261E" stroke="#1A1A1A" stroke-width="4"/>
+  <!-- porta -->
+  <rect x="90" y="122" width="20" height="28" fill="#1A1A1A"/>
+  <!-- losangos na parede -->
+  <path d="M77 120 L83 128 L77 136 L71 128 Z" fill="#FFF8EC"/>
+  <path d="M123 120 L129 128 L123 136 L117 128 Z" fill="#FFF8EC"/>
+
+  <!-- telhado -->
+  <path d="M50 108 L100 56 L150 108 Z" fill="#D9902F" stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M100 74 L109 86 L100 98 L91 86 Z" fill="#1A1A1A"/>
+  <path d="M72 100 L82 90 M128 100 L118 90" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- chão -->
+  <line x1="52" y1="153" x2="148" y2="153" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round"/>
+</svg>

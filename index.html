@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yepá Mahsã - Palavras Tukano</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+
+    <!-- TELA 1: escolha do grupo -->
+    <section class="screen1">
+      <!-- [imagem e descrição dela: grafismo tukano em losangos vermelho, preto e branco, como o das malocas e cestarias, usado como faixa decorativa no topo] -->
+      <div class="grafismo"></div>
+
+      <h1>Yepá Mahsã</h1>
+      <p>Aprenda palavras do povo Tukano! Escolha um grupo, toque nos cartões para ver a pronúncia e descobrir o significado.</p>
+
+      <div id="groupButtons" class="group-buttons">
+        <!-- botões criados pelo main.js -->
+      </div>
+    </section>
+
+    <!-- TELA 2: cartões -->
+    <section class="screen2 hide">
+      <div class="grafismo"></div>
+
+      <h1 id="groupTitle">Grupo</h1>
+      <p id="hint">Toque em um cartão para ver o significado.</p>
+
+      <div id="cards" class="cards">
+        <!-- cartões criados pelo main.js -->
+      </div>
+
+      <div class="actions">
+        <button id="btnBack" class="btn-primary">Escolher outro grupo</button>
+        <button id="btnShuffle" class="btn-secondary">Embaralhar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>

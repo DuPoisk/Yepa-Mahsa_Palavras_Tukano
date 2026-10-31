@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="d" d="M100 12 L106 20 L100 28 L94 20 Z" fill="#B3261E"/>
+  </defs>
+
+  <!-- moldura -->
+  <circle cx="100" cy="100" r="96" fill="#FFF8EC" stroke="#1A1A1A" stroke-width="6"/>
+  <use href="#d"/>
+  <use href="#d" transform="rotate(30 100 100)"/>
+  <use href="#d" transform="rotate(60 100 100)"/>
+  <use href="#d" transform="rotate(90 100 100)"/>
+  <use href="#d" transform="rotate(120 100 100)"/>
+  <use href="#d" transform="rotate(150 100 100)"/>
+  <use href="#d" transform="rotate(180 100 100)"/>
+  <use href="#d" transform="rotate(210 100 100)"/>
+  <use href="#d" transform="rotate(240 100 100)"/>
+  <use href="#d" transform="rotate(270 100 100)"/>
+  <use href="#d" transform="rotate(300 100 100)"/>
+  <use href="#d" transform="rotate(330 100 100)"/>
+  <circle cx="100" cy="100" r="70" stroke="#1A1A1A" stroke-width="2"/>
+
+  <!-- chama externa -->
+  <path d="M100 48 C118 74 140 88 132 118 C126 142 74 142 68 118 C60 88 82 76 100 48 Z" fill="#B3261E" stroke="#1A1A1A" stroke-width="4"/>
+  <!-- chama do meio -->
+  <path d="M100 78 C113 95 124 106 118 122 C112 135 88 135 82 122 C76 106 87 96 100 78 Z" fill="#D9902F"/>
+  <!-- chama interna -->
+  <path d="M100 104 C106 112 111 118 107 127 C103 133 97 133 93 127 C89 118 94 112 100 104 Z" fill="#FFF8EC"/>
+
+  <!-- lenhas -->
+  <rect x="60" y="134" width="80" height="11" rx="5.5" transform="rotate(12 100 139)" fill="#1A1A1A"/>
+  <rect x="60" y="134" width="80" height="11" rx="5.5" transform="rotate(-12 100 139)" fill="#2F5D3A" stroke="#1A1A1A" stroke-width="3"/>
+
+  <!-- faíscas -->
+  <path d="M58 82 L63 89 L58 96 L53 89 Z" fill="#D9902F"/>
+  <path d="M142 82 L147 89 L142 96 L137 89 Z" fill="#D9902F"/>
+</svg>

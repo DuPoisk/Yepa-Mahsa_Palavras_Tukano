@@ -8,7 +8,7 @@
 const groups = {
   natureza: {
     title: "Natureza",
-    iconImg: "/sources/icon-natureza.svg",
+    iconImg: "./sources/icon-natureza.svg",
     words: [
       { word: "Yepá",      pronunciation: "yeh-PÁ",      meaning: "Terra/Solo" },
       { word: "Akó",    pronunciation: "ah-KÓ",    meaning: "Água / Líquido" },
@@ -21,7 +21,7 @@ const groups = {
 
   familia: {
     title: "Família",
-    iconImg: "/sources/icon-familia.svg",
+    iconImg: "./sources/icon-familia.svg",
     words: [
       { word: "Pakó",   pronunciation: "pah-KÓ",    meaning: "Mãe" }, /* pág 237*/
       { word: "Pakí",   pronunciation: "pah-KEE",    meaning: "Pai" },
@@ -34,7 +34,7 @@ const groups = {
 
   saudacoes: {
     title: "Conversa",
-    iconImg: "/sources/icon-conversa.svg",
+    iconImg: "./sources/icon-conversa.svg",
     words: [
       { word: "Neé! / Sôo!",             pronunciation: "ô-la",               meaning: "Olá" }, /*pág 240*/
       { word: "Ɨmîkoho",      pronunciation: "û-MÎ-ko-hô",      meaning: "Dia" },/*pág 227 */
@@ -47,7 +47,7 @@ const groups = {
 
   rituais: {
     title: "Rituais",
-    iconImg: "/sources/icon-rituais.svg",
+    iconImg: "./sources/icon-rituais.svg",
     words: [
       { word: "Basâ",     pronunciation: "bah-SÂ",      meaning: "Dança / Canto ritual" }, /* pág 225 Basamo*/
       { word: "Bahsakewi'í",     pronunciation: "bah-sah-keh-wee-EE",      meaning: "Casa de Cerimônias" },

@@ -122,7 +122,6 @@ p {
 /* CARTÕES (jogo da memória) */
 .cards {
   display: grid;
-  repeat(auto-fit, minmax(24rem, 1fr)); /* nº de colunas se ajusta sozinho */
   gap: 1.4rem;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr)); /* nº de colunas se ajusta sozinho */

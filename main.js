@@ -10,12 +10,12 @@ const groups = {
     title: "Natureza",
     iconImg: "./sources/icon-natureza.svg",
     words: [
-      { word: "Yepá",      pronunciation: "ye-PÁ",      meaning: "Terra/Solo" },
-      { word: "Akó",    pronunciation: "ar-KÓ",    meaning: "Água / Líquido" },
-      { word: "Yokoá",      pronunciation: "ñor-ko-Ã",       meaning: "Estrelas" }, /* pág 231 ou 206*/
-      { word: "Muhî-pu͂ u",     pronunciation: "mu-HĨ-Pu",     meaning: "Sol / Lua (Astro)" }, /*pág 237 */
-      { word: "Akôro",   pronunciation: "ar-KÓ-ró",    meaning: "Chuva" },
-      { word: "Mĩrĩ́kihi",   pronunciation: "mi-ri-KÊÃ",  meaning: "Passarinho" }
+      { word: "Yepá", pronunciation: "ye-PÁ", meaning: "Terra/Solo" },
+      { word: "Akó", pronunciation: "ar-KÓ", meaning: "Água / Líquido" },
+      { word: "Yokoá", pronunciation: "ñor-ko-Ã", meaning: "Estrelas" }, /* pág 231 ou 206*/
+      { word: "Muhî-pu͂ u", pronunciation: "mu-HĨ-Pu", meaning: "Sol / Lua (Astro)" }, /*pág 237 */
+      { word: "Akôro", pronunciation: "ar-KÓ-ró", meaning: "Chuva" },
+      { word: "Mĩrĩ́kihi", pronunciation: "mi-ri-KÊã", meaning: "Passarinho" }
     ]
   },
 
@@ -23,23 +23,23 @@ const groups = {
     title: "Família",
     iconImg: "./sources/icon-familia.svg",
     words: [
-      { word: "Pakó",   pronunciation: "par-KÓ",    meaning: "Mãe" }, /* pág 237*/
-      { word: "Pakɨ",   pronunciation: "par-KV",    meaning: "Pai" },
-      { word: "Wi'magɨ",  pronunciation: "wí-man-GV",  meaning: "Criança / Menino" }, /* ou trocar por caçula dɨ’sagí pág 220; A escrita fonética portuguesa brasileira do "u" em francês é representada como [v]. Essa transcrição é baseada nas normas do Alfabeto Fonético Internacional (AFI) */
-      { word: "Ye͂kó",  pronunciation: "ñe-KÓ",  meaning: "Avó" },
-      { word: "Mahsã", pronunciation: "mar-SÃ",  meaning: "Povo / Gente / Seres Humanos" },
-      { word: "Mako",    pronunciation: "mar-KON",      meaning: "Filha" } /*pág 69 */
+      { word: "Pakó", pronunciation: "par-KÓ", meaning: "Mãe" }, /* pág 237*/
+      { word: "Pakɨ", pronunciation: "par-KV", meaning: "Pai" }, /*A escrita fonética portuguesa brasileira do "u" em francês é representada como [v]. Essa transcrição é baseada nas normas do Alfabeto Fonético Internacional (AFI) */
+      { word: "Wi'magɨ", pronunciation: "uí-man-GV", meaning: "Criança / Menino" }, /*A escrita fonética portuguesa brasileira do "u" em francês é representada como [v]. Essa transcrição é baseada nas normas do Alfabeto Fonético Internacional (AFI) */
+      { word: "Ye͂kó", pronunciation: "ñe-KÓ", meaning: "Avó" },
+      { word: "Mahsã", pronunciation: "mar-SÃ", meaning: "Povo / Gente" },
+      { word: "Mako", pronunciation: "mar-KON", meaning: "Filha" } /*pág 69 */
     ]
   },
 
-  saudacoes: {
+  conversa: {
     title: "Conversa",
     iconImg: "./sources/icon-conversa.svg",
     words: [
       { word: "Ãyúti", pronunciation: "A-ñun-TÍ", meaning: "Tudo bem?" }, /*pág 240*/
-      { word: "Ɨmîkoho", pronunciation: "V-mã-KÓ", meaning: "Dia" },/*pág 227 */
+      { word: "Ɨmîkoho", pronunciation: "V-mã-KÓ", meaning: "Dia" },/*pág 227; A escrita fonética portuguesa brasileira do "u" em francês é representada como [v]. Essa transcrição é baseada nas normas do Alfabeto Fonético Internacional (AFI) */
       { word: "Sãhâtya!", pronunciation: "SÃ-tiá", meaning: "Podem entrar!" },
-      { word: "A’tiá", pronunciation: "Á-tiá", meaning: "Venha / Bem-vindo!" }, /* pág 9*/
+      { word: "A’tiá!", pronunciation: "Á-tiá", meaning: "Venha / Bem-vindo!" }, /* pág 9*/
       { word: "Ãyú", pronunciation: "A-ÑÚ", meaning: "Gratidão" },/*pág 10, mas a tradução é como "bom, bonito, bom de saúde"  */
       { word: "Ba'râtiã!", pronunciation: "báran-ti-Ã", meaning: "Vamos comer!" }
     ]
@@ -50,11 +50,11 @@ const groups = {
     title: "Rituais",
     iconImg: "./sources/icon-rituais.svg",
     words: [
-      { word: "Bayâ",     pronunciation: "ba-IÁ",      meaning: "Canto de benzimento" }, /* pág 225 Basamo*/
-      { word: "Bahsakewi'í",     pronunciation: "bar-SÁ-kê-uÍ",      meaning: "Casa de Cerimônias" },
-      { word: "Pekâ-me'e",     pronunciation: "per-KÁ-me",      meaning: "Fogo" },
+      { word: "Bayâ", pronunciation: "ba-IÁ", meaning: "Canto de benzimento" }, /* pág 225 Basamo*/
+      { word: "Bahsakewi'í", pronunciation: "bar-SÁ-kê-uÍ", meaning: "Casa de Cerimônias" },
+      { word: "Pekâ-me'e", pronunciation: "per-KÁ-me", meaning: "Fogo" },
       { word: "Bahsesehé", pronunciation: "bar-sê-sé", meaning: "Benzimentos" }, /* Cura xamanística pág 70 benzer */
-      { word: "Ya'sá",   pronunciation: "ña-SÃ",   meaning: "Maracá/ Chocalho" },
+      { word: "Ya'sá",   pronunciation: "ña-SÃ", meaning: "Maracá/ Chocalho" },
       { word: "Hori Huaya",  pronunciation: "ró-ri-HUÁ-ia", meaning: "Pintura corporal ancestral" }
     ]
   }
@@ -89,7 +89,8 @@ function toggleScreen() {
 }
 
 function shuffle(array) {
-  // Fisher-Yates: embaralha uma cópia do array
+  // Fisher-Yates: embaralha uma cópia do array. 
+  // é um método clássico da computação usado para embaralhar (misturar) os elementos de uma sequência ou lista de forma totalmente aleatória e sem viés
   const copy = [...array]
   for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))

@@ -7,16 +7,34 @@
 }
 
 :root {
-  /* 1rem cresce conforme a largura da tela (mínimo 10px, máximo ~17px) */
-  font-size: clamp(62.5%, 0.45vw + 495%, 160%);
+  /* FONTES */
   --ff-main-text: 'Montserrat', sans-serif;
   --ff-secondary-text: 'DM Sans', sans-serif;
 
+  /* CORES */
   --vermelho: #B3261E;
   --preto: #1A1A1A;
   --branco: #FFF8EC;
   --ocre: #D9902F;
   --verde: #2F5D3A;
+
+  /* TAMANHOS - COMPUTADOR */
+  --page-padding: 1.5rem;
+  --screen-padding: 3rem;
+
+  --title-size: 3.2rem;
+  --text-size: 1.5rem;
+
+  --group-gap: 2rem;
+  --group-font-size: 2rem;
+  --group-padding: 2.5rem;
+  --icon-size: 5rem;
+
+  --card-height: 13rem;
+  --card-gap: 1.2rem;
+  --card-font-size: 1.5rem;
+
+  --button-font-size: 1.2rem;
 }
 
 body {
@@ -27,24 +45,27 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  padding: 2rem 1rem;
+  padding: var(--page-padding);
 }
 
 .screen1, .screen2 {
   background-color: var(--branco);
   width: 100%;
-  max-width: 130rem;
-  overflow: hidden; /*esconde o excesso do grafismo*/
-  min-height: calc(100vh - 4rem);    /* ocupa quase a página toda */
-  justify-content: center;           /* centraliza o conteúdo na vertical */
-  padding: 0 3rem 3rem;
+  max-width: 80rem;
+  min-height: min(760px, calc(100vh - 2rem));
+
+  padding: 0 var(--screen-padding) 3rem;
+  overflow: hidden;
 
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 14px 28px, rgba(0, 0, 0, 0.25) 0px 10px 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 14px 28px,
+              rgba(0, 0, 0, 0.25) 0px 10px 10px;
 }
 
 .hide {
@@ -67,33 +88,33 @@ body {
 
 h1 {
   font-family: var(--ff-main-text);
-  font-size: 4.2rem; line-height: 5rem;
+  font-size: var(--title-size);
+  line-height: 1.2;
   font-weight: 700;
-  line-height: 3.4rem;
   color: var(--vermelho);
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 2rem; 
-  line-height: 2.8rem; 
+  font-size: var(--text-size);
+  line-height: 1.5;
   max-width: 60rem;
-  margin-bottom: 1rem ;
+  margin-bottom: 1rem;
 }
 
 /* BOTÕES DE GRUPO */
 .group-buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   width: 100%;
   max-width: 70rem;
-  gap: 2rem;
+  gap: var(--group-gap);
 }
 
 .group-btn {
   font-family: var(--ff-main-text);
-  font-size: 2.2rem; 
-  padding: 3.5rem 1rem;  
+  font-size: var(--group-font-size);
+  padding: var(--group-padding) 1rem;
   color: var(--branco);
   background-color: var(--preto);
   border: 0.3rem solid var(--vermelho);
@@ -102,36 +123,32 @@ p {
   transition: transform 0.2s, background-color 0.2s;
 }
 
-.group-btn:hover {
+.group-btn:hover { /* não alterei*/
   background-color: var(--vermelho);
   transform: scale(1.05);
 }
 
 .group-btn .icon-img {
   display: block;
-  width: 6rem;
-  height: 6rem;
+  width: var(--icon-size);
+  height: var(--icon-size);
   object-fit: contain;
   margin: 0 auto 1rem;
-  font-size: 1.6rem;
-  font-family: var(--ff-secondary-text);
-  /*margin-bottom: 0.8rem;*/
-  opacity: 0.8;
 }
 
 /* CARTÕES (jogo da memória) */
 .cards {
   display: grid;
-  gap: 1.4rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--card-gap);
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr)); /* nº de colunas se ajusta sozinho */
 }
 
 .card {
   perspective: 100rem;
   background: none;
   border: 0;
-  height: 13.5rem;
+  height: var(--card-height);
   cursor: pointer;
 }
 
@@ -191,19 +208,24 @@ p {
   font-size: 1.8rem;
 }
 
+.card-front .word,
+.card-back .meaning {
+  font-family: var(--ff-main-text);
+  font-size: var(--card-font-size);
+}
+
 .card-back .label {
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
   opacity: 0.85;
 }
 
-/* [imagem e descrição dela: pequeno ícone ilustrando a palavra, ex.: desenho de uma canoa para "canoa"] */
 
 .card.matched .card-back {
   background-color: var(--verde);
 }
 
-/* BOTÕES DE AÇÃO embaralha e escolher outro grupo*/
+/* BOTÕES DE AÇÃO embaralhar e escolher outro grupo*/
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -214,9 +236,9 @@ p {
 
 .btn-primary, .btn-secondary {
   font-family: var(--ff-secondary-text);
-  font-size: 1.4rem;
+  font-size: var(--button-font-size);
   font-weight: 700;
-  padding: 1.4rem 1.8rem;
+  padding: 1.2rem 1.6rem;
   border-radius: 0.6rem;
   border: 0;
   cursor: pointer;
@@ -257,8 +279,70 @@ p {
   }
 }
 
-@media (min-width: 560px) {
+/* TABLETS */
+@media (max-width: 900px) {
+  :root {
+    --page-padding: 1rem;
+    --screen-padding: 2rem;
+
+    --title-size: 2.6rem;
+    --text-size: 1.2rem;
+
+    --group-gap: 1rem;
+    --group-font-size: 1.5rem;
+    --group-padding: 2rem;
+    --icon-size: 4rem;
+
+    --card-height: 12rem;
+    --card-font-size: 1.3rem;
+  }
+
   .cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/*RESPONSIVIDADE*/
+/* CELULARES */
+@media (max-width: 600px) {
+  :root {
+    --page-padding: 0.6rem;
+    --screen-padding: 1rem;
+
+    --title-size: 2rem;
+    --text-size: 1rem;
+
+    --group-gap: 0.8rem;
+    --group-font-size: 1.2rem;
+    --group-padding: 1.5rem;
+    --icon-size: 3rem;
+
+    --card-height: 11rem;
+    --card-gap: 0.8rem;
+    --card-font-size: 1.1rem;
+
+    --button-font-size: 1rem;
+  }
+
+  .screen1, .screen2 {
+    min-height: calc(100vh - 1.2rem);
+  }
+
+  .group-buttons,
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+  }
+
+  .grafismo {
+    margin-bottom: 1.5rem;
   }
 }

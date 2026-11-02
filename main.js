@@ -10,12 +10,12 @@ const groups = {
     title: "Natureza",
     iconImg: "./sources/icon-natureza.svg",
     words: [
-      { word: "Yepá",      pronunciation: "yeh-PÁ",      meaning: "Terra/Solo" },
-      { word: "Akó",    pronunciation: "ah-KÓ",    meaning: "Água / Líquido" },
-      { word: "Ñokoá",      pronunciation: "ñoh-koh-Ã",       meaning: "Estrela" }, /* pág 231*/
-      { word: "Muhî-pu͂ u",     pronunciation: "moo-hĩ-POO-oo",     meaning: "Sol / Lua (Astro)" }, /*pág 237 */
-      { word: "Akôro",   pronunciation: "ah-KÔ-ro",    meaning: "Chuva" },
-      { word: "Mĩrĩ́kihi",   pronunciation: "mee-ree-KEE-hee",  meaning: "Ave" }
+      { word: "Yepá",      pronunciation: "ye-PÁ",      meaning: "Terra/Solo" },
+      { word: "Akó",    pronunciation: "ar-KÓ",    meaning: "Água / Líquido" },
+      { word: "Yokoá",      pronunciation: "ñor-ko-Ã",       meaning: "Estrelas" }, /* pág 231 ou 206*/
+      { word: "Muhî-pu͂ u",     pronunciation: "mu-HĨ-Pu",     meaning: "Sol / Lua (Astro)" }, /*pág 237 */
+      { word: "Akôro",   pronunciation: "ar-KÓ-ró",    meaning: "Chuva" },
+      { word: "Mĩrĩ́kihi",   pronunciation: "mi-ri-KÊÃ",  meaning: "Passarinho" }
     ]
   },
 
@@ -23,12 +23,12 @@ const groups = {
     title: "Família",
     iconImg: "./sources/icon-familia.svg",
     words: [
-      { word: "Pakó",   pronunciation: "pah-KÓ",    meaning: "Mãe" }, /* pág 237*/
-      { word: "Pakí",   pronunciation: "pah-KEE",    meaning: "Pai" },
-      { word: "Wi'magɨ",  pronunciation: "wee-mah-GÜEE",  meaning: "Criança / Menino" }, /* ou trocar por caçula dɨ’sagí pág 220*/
-      { word: "Ye͂kó",  pronunciation: "yeh-KÓ",  meaning: "Avó" },
-      { word: "Mahsã", pronunciation: "mah-SÃ",  meaning: "Povo / Gente / Seres Humanos" },
-      { word: "Makó",    pronunciation: "mah-KÓ",      meaning: "Filha" }
+      { word: "Pakó",   pronunciation: "par-KÓ",    meaning: "Mãe" }, /* pág 237*/
+      { word: "Pakɨ",   pronunciation: "par-KV",    meaning: "Pai" },
+      { word: "Wi'magɨ",  pronunciation: "wí-man-GV",  meaning: "Criança / Menino" }, /* ou trocar por caçula dɨ’sagí pág 220; A escrita fonética portuguesa brasileira do "u" em francês é representada como [v]. Essa transcrição é baseada nas normas do Alfabeto Fonético Internacional (AFI) */
+      { word: "Ye͂kó",  pronunciation: "ñe-KÓ",  meaning: "Avó" },
+      { word: "Mahsã", pronunciation: "mar-SÃ",  meaning: "Povo / Gente / Seres Humanos" },
+      { word: "Mako",    pronunciation: "mar-KON",      meaning: "Filha" } /*pág 69 */
     ]
   },
 
@@ -36,25 +36,26 @@ const groups = {
     title: "Conversa",
     iconImg: "./sources/icon-conversa.svg",
     words: [
-      { word: "Neé! / Sôo!",             pronunciation: "ô-la",               meaning: "Olá" }, /*pág 240*/
-      { word: "Ɨmîkoho",      pronunciation: "û-MÎ-ko-hô",      meaning: "Dia" },/*pág 227 */
-      { word: "Sãhâya!",    pronunciation: "sã-HÂ-yah",   meaning: "Entre! / Pode entrar" },
-      { word: "Pâtisehe",          pronunciation: "pah-TEE-seh-heh",           meaning: "Não" },
-      { word: "Ãyuró",      pronunciation: "ã-yoo-RÓ",       meaning: "Muito bom / Obrigado" },
-      { word: "Ba'âya!",       pronunciation: "bah-AH-yah",      meaning: "Coma! / Vamos comer" }
+      { word: "Ãyúti", pronunciation: "A-ñun-TÍ", meaning: "Tudo bem?" }, /*pág 240*/
+      { word: "Ɨmîkoho", pronunciation: "V-mã-KÓ", meaning: "Dia" },/*pág 227 */
+      { word: "Sãhâtya!", pronunciation: "SÃ-tiá", meaning: "Podem entrar!" },
+      { word: "A’tiá", pronunciation: "Á-tiá", meaning: "Venha / Bem-vindo!" }, /* pág 9*/
+      { word: "Ãyú", pronunciation: "A-ÑÚ", meaning: "Gratidão" },/*pág 10, mas a tradução é como "bom, bonito, bom de saúde"  */
+      { word: "Ba'râtiã!", pronunciation: "báran-ti-Ã", meaning: "Vamos comer!" }
     ]
   },
+
 
   rituais: {
     title: "Rituais",
     iconImg: "./sources/icon-rituais.svg",
     words: [
-      { word: "Basâ",     pronunciation: "bah-SÂ",      meaning: "Dança / Canto ritual" }, /* pág 225 Basamo*/
-      { word: "Bahsakewi'í",     pronunciation: "bah-sah-keh-wee-EE",      meaning: "Casa de Cerimônias" },
-      { word: "Pekâ-me'e",     pronunciation: "peh-KÂ-meh-eh",      meaning: "Fogo" },
-      { word: "Baseé", pronunciation: "bah-SEH-eh", meaning: "Benzimento" }, /* Cura xamanística */
-      { word: "Ya'sá",   pronunciation: "yah-SÁ",   meaning: "Maracá/ Chocalho" },
-      { word: "Sõ'ô",  pronunciation: "sõ-Ô", meaning: "Pintura corporal" }
+      { word: "Bayâ",     pronunciation: "ba-IÁ",      meaning: "Canto de benzimento" }, /* pág 225 Basamo*/
+      { word: "Bahsakewi'í",     pronunciation: "bar-SÁ-kê-uÍ",      meaning: "Casa de Cerimônias" },
+      { word: "Pekâ-me'e",     pronunciation: "per-KÁ-me",      meaning: "Fogo" },
+      { word: "Bahsesehé", pronunciation: "bar-sê-sé", meaning: "Benzimentos" }, /* Cura xamanística pág 70 benzer */
+      { word: "Ya'sá",   pronunciation: "ña-SÃ",   meaning: "Maracá/ Chocalho" },
+      { word: "Hori Huaya",  pronunciation: "ró-ri-HUÁ-ia", meaning: "Pintura corporal ancestral" }
     ]
   }
 };

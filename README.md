@@ -1,4 +1,4 @@
-# 🌿 Yepá Mahsã — Aprenda palavras em Tukano
+# 🌿 Yepá-Mahsã — Aprenda palavras em Tukano
 
 Aplicativo educativo desenvolvido para apresentar palavras e expressões em Tukano, língua associada ao povo indígena Yepá-Mahsã. A proposta é aproximar tecnologia e aprendizagem, despertando o interesse pela diversidade linguística e pela valorização das línguas indígenas.
 

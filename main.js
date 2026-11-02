@@ -53,9 +53,9 @@ const groups = {
       { word: "Bayâ", pronunciation: "ba-IÁ", meaning: "Canto de benzimento" }, /* pág 225 Basamo*/
       { word: "Bahsakewi'í", pronunciation: "bar-SÁ-kê-uÍ", meaning: "Casa de Cerimônias" },
       { word: "Pekâ-me'e", pronunciation: "per-KÁ-me", meaning: "Fogo" },
-      { word: "Bahsesehé", pronunciation: "bar-sê-sé", meaning: "Benzimentos" }, /* Cura xamanística pág 70 benzer */
+      { word: "Bahsesehé", pronunciation: "bar-sê-SÉ", meaning: "Benzimentos" }, /* Cura xamanística pág 70 benzer */
       { word: "Ya'sá",   pronunciation: "ña-SÃ", meaning: "Maracá/ Chocalho" },
-      { word: "Hori Huaya",  pronunciation: "ró-ri-HUÁ-ia", meaning: "Pintura corporal ancestral" }
+      { word: "Hori Huaya",  pronunciation: "ró-ri HUÁ-ia", meaning: "Pintura corporal ancestral" }
     ]
   }
 };

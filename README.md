@@ -44,6 +44,16 @@ Atualmente, o código contém seis entradas em cada categoria, totalizando **24 
 
  O GitHub Pages disponibiliza um endereço público para o aplicativo, o qual pode ser visitado em [App Yepa-Mahsa_Palavras_Tukano](https://dupoisk.github.io/Yepa-Mahsa_Palavras_Tukano/).
 
+<div align="center">
+  <h3>Telas para computador </h3>
+  <img alt="tela inicial para computador" src="https://github.com/user-attachments/assets/f5eaa756-e06b-4314-951a-73dfd363e338" height="230" /> 
+  <img alt="tela dos cards para computador" src="https://github.com/user-attachments/assets/3dff9502-e23d-4c5f-9540-017cdce3e65c" height="230" /> <br>
+  
+  <h3>Telas para mobile</h3>
+  <img alt="tela inicial para mobile" src="https://github.com/user-attachments/assets/837a5cf5-3602-4eab-b62d-f18a16e49e7c" width="30%" />
+  <img alt="tela dos cards para mobile" src="https://github.com/user-attachments/assets/c8dd8746-8494-4d8f-a141-af0138914dce" width="30%"  />
+</div>
+
 ## 📖 Possíveis melhorias futuras
 
 - Ampliar o vocabulário, mantendo a proposta de aprendizagem por categorias.

@@ -119,6 +119,10 @@ function createGroupButtons() {
 }
 
 function openGroup(key) {
+  window.scrollTo({ /*para fazer a screen2 aparecer desde a borda superior, mesmo se a screen1 estiver sido deslocada */ 
+  top: 0,
+  behavior: 'smooth'
+  });
   currentGroup = key
   groupTitle.innerText = groups[key].title
   renderCards()
@@ -173,6 +177,10 @@ function shuffleCards() {
 }
 
 function backToGroups() {
+  window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+  });
   toggleScreen()
 }
 
